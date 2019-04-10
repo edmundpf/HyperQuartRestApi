@@ -2,6 +2,11 @@
 
 This is a starter project to start serving API's with use of the new async/await keywords in Python and make use of ASGI (Asynchronous Server Gateway Interface). Ideally this should lead to performance increases vs. a traditional WSGI-served app, which is common with many Flask/Django setups - [3x faster Flask apps](https://hackernoon.com/3x-faster-than-flask-8e89bfbe8e4f "Hacker Noon")
 
+## Installation
+* Clone the repo: `git clone git@github.com:edmundpf/HyperQuartRestApi.git`
+* Create the *LOGS* directory for hypercorn log files: `mkdir LOGS`
+* Install the python requirements: `python3 -m pip install requirements.txt`
+
 ## Flask-to-Quart Migration
 * Quart shares the same modules/functios as Flask, so replacing *flask* with *quart* and *Flask* with *Quart* will leave you with a working app.
 * Additional changes are needed to take advantage of async calls though, your route functions must make use of the async/await keywords...
