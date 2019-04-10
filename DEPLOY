@@ -1,0 +1,1 @@
+nonhup hypercorn app:app -b localhost:5000 --reload --access-log LOGS/app.log --error-log LOGS/app.log > LOGS/nohup.err
