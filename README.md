@@ -8,7 +8,7 @@ This is a starter project to start serving API's with use of the new async/await
 * Install the python requirements: `python3 -m pip install requirements.txt`
 
 ## Flask-to-Quart Migration
-* Quart shares the same modules/functios as Flask, so replacing *flask* with *quart* and *Flask* with *Quart* will leave you with a working app.
+* Quart shares the same modules/functions as Flask, so replacing *flask* with *quart* and *Flask* with *Quart* will leave you with a working app.
 * Additional changes are needed to take advantage of async calls though, your route functions must make use of the async/await keywords...
   * Flask example:
     ```python
