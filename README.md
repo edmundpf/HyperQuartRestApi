@@ -47,5 +47,5 @@ This is a starter project to start serving API's with use of the new async/await
   ```
 * Deploy with the command `./DEPLOY`
   * The *nonhup* command that was added is a wrapper for nohup that prevents a command from hanging in the console and also prevents the *nohup.out*   file from being created
-* The incldued deployment script serves the app on *localhost:5000*, automatically reloads after adding/changing files in the app directory, and redirects the error logs to *LOGS/app.log*
+* The included deployment script serves the app on *localhost:5000*, automatically reloads after adding/changing files in the app directory, and redirects the error logs to *LOGS/app.log*
 * Further customization options for Hypercorn - [Hypercorn Documentation](https://pgjones.gitlab.io/hypercorn/ "Hypercorn")
